@@ -31,11 +31,11 @@
         <v-app-bar app color="brown darken-4" dark>
             <v-app-bar-nav-icon class="hidden-md-and-up" @click="drawer=!drawer"></v-app-bar-nav-icon>
             <v-spacer class="hidden-md-and-up"></v-spacer>
-            <v-toolbar-title class="pa-2"> {{appTitle}} </v-toolbar-title>
-            <v-btn text class="hidden-sm-and-down">Меню</v-btn>
-            <v-btn text class="hidden-sm-and-down">Каталог</v-btn>
-            <v-btn text class="hidden-sm-and-down">Блог</v-btn>
-            <v-btn text class="hidden-sm-and-down">Резервація</v-btn>
+            <v-toolbar-title href="/" class="pa-2"> {{appTitle}} </v-toolbar-title>
+            <v-btn href="#/" text class="hidden-sm-and-down">Меню</v-btn>
+            <v-btn href="#/catalog" text class="hidden-sm-and-down">Каталог</v-btn>
+            <v-btn href="#/blog" text class="hidden-sm-and-down">Блог</v-btn>
+            <v-btn href="#/reservation" text class="hidden-sm-and-down">Резервація</v-btn>
             <v-spacer class="hidden-sm-and-down"></v-spacer>
             <v-btn text class="hidden-sm-and-down">Вхід</v-btn>
             <v-btn color="brown lighten-3" class="hidden-sm-and-down">Реєстрація</v-btn>

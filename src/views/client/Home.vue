@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-
+рол рол рол
   </div>
 </template>
 
